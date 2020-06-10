@@ -19,7 +19,7 @@ steps:
   inputs:
     threshold: '75'
     scantype: 'targetedScan'
-    url: 'https://buildtestapp-webapp.azurewebsites.net/'
+    url: '<URL to do pentest>'
 
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Zap Report'
